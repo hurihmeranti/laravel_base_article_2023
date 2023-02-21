@@ -11,7 +11,7 @@
     <style>
       
       .bd-placeholder-img {
-        font-size: 1.125rem;
+        font-size:  20px;                                                                                                                                                    1.125rem;
         text-anchor: middle;
         -webkit-user-select: none;
         -moz-user-select: none;
@@ -60,10 +60,25 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+
+    
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
     </style>
 
 </head>
-<body class="bs-body-color-rgb">
+<body>
     <!--This Header-->
 <!-- <header class="p-3 mb-3 border-bottom ">
     <div class="container">
@@ -108,13 +123,16 @@
   <section class="py-2 text-center container bg-dark[500]">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light font-bold">Huri Hidayat</h1>
+        <img src="../../resources/assets/images/ra6.jpg" alt="">
+        <h1 class="fw-light font-bold" >Huri Hidayat</h1>
         <!-- <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p> -->
         <p>
-          <a href="#" class="btn btn-primary my-2">
-            <img src="./" alt="">
-          </a>
-          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+            <a href="https://github.com/hurihmeranti/" class="btn btn-primary my-2">
+                <img src="../assets/images/github.png" alt="">Github
+            </a>
+            <a href="https://google.com" class="btn btn-secondary my-2">
+                <img src="" alt="">Gmail
+            </a>
         </p>
       </div>
     </div>
@@ -267,6 +285,9 @@
 </main>
 <!-- body finish -->
 
+<!-- footer -->
+
+<!-- end footer -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </body>
